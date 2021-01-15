@@ -1,38 +1,20 @@
-body {
-    text-align: center;
-    line-height: 1.5;
-   
-
-    /* The image used */
-    background-image: url("..\\image\\tirtagangga-water-palace.jpg");
-
-    /* Add the blur effect */
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 *{
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/*navbar*/
+
 .container{
+    z-index: 1;
     position: absolute;
     width: 59.25%;
     height: 80px;
-    margin-top: 50px;
-    margin-left: 293px;
+    margin-top: -245px;
+    margin-left: 253px;
     justify-content: center;
     background-color: #320D00;
 }
+
 .container:after {
     content: '';
     display: block;
@@ -43,21 +25,25 @@ body {
     float: left;
     padding: 10px 0;
     width: 20%;
-}    
+    margin-left: 10px;
+}
 .search {
+    position: relative;
     width: 12%;
-    height: 80px;
+    height: 79px;
     background-color:#FF494E;
-    margin-top: -90.5px;
+    margin-top: -71px;
     float: right;
 }
+
 .search img {
     width: 40%;
     margin-top: 12px;
     margin-left: 30px;
 }
+
 header ul {
-    margin-left: 100px;
+    margin-left: 200px;
 }
 
 header ul li {
@@ -71,289 +57,234 @@ header ul li a {
     display: inline-block;
     color: white;
     text-decoration: none;
+    transition: 0,6s ease;
     margin-right: -20px;
 }
+
+header ul li a:hover {
+    background-color: orangered;
+}
+header ul li.active a{
+    background-color: orangered;
+}
 .bg {
-    height: 135vh;
-    background-image: url('offers.png');
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    height: 50vh;
+}
+.bg video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 430px;
+    color: white;
 }
 
-/*judul*/
-h1 {
-    top:100px;
-    color: #0f0f0f;
-    font-family: 'hashed browns';
-	font-size: 30pt;
-	font-variant: inherit;
-    text-align: center;
-    padding-top: 190px;
-    padding-left: 18%;
-    padding-right: 18%;
+h3 {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 140px;
+    color: white;
 }
-/*kotak*/
-.Isi {
-    top: 0px;
-    margin: 40px auto;
-    background-color: rgba(255, 255, 255, 1) ;
-    border-radius: 5px;
-    box-shadow: 2px 4px 10px rgba(0,0,0,0.65) ;
-    padding: 10px 10px;
-    width: 400px ;
+
+.box1 h5 {
+    position: absolute;
+    color: #CCCCCC;
+    margin-top: 15px;
+    margin-left: 150px;
+    font-family: Myriad Pro;
+    font-weight: Semibold Consended;
+}
+
+.text {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 150px;
+    padding: 10px 5px;
+    border: 3px solid;
+    border-color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background: transparent;
+}
+
+.box2 h5 {
+    position: absolute;
+    font-family: Myriad Pro;
+    font-weight: Semibold Consended;
+    color: #CCCCCC;
+    margin-top: 15px;
+    margin-left: 380px;
+}
+.text1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 380px;
+    padding: 10px 5px;
+    border: 3px solid;
+    border-color: white;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background: transparent;
+}
+.box3 h5 {
+    position: absolute;
+    font-family: Myriad Pro;
+    color: #CCCCCC;
+    margin-top: 15px;
+    margin-left: 610px;
+    font-family: Myriad Pro;
+    font-weight: Semibold Consended;  
+}
+.text2 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 610px;
+    padding: 10px 5px;
+    border: 3px solid;
+    border-color: white;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+    background: transparent;
+}
+.box4 h5 {
+    position: absolute;
+    color: #CCCCCC;
+    margin-top: 15px;
+    margin-left: 790px;
+    font-family: Myriad Pro;
+    font-weight: Semibold Consended;
+}
+.text3 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 790px;
+    padding: 10px 5px;
+    border: 3px solid;
+    border-color: white;
+    font-family: Montserrat;
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+    background: transparent;
+}
+.box7 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 970px;
+    width: 65px;
+    height: 40px;
+    background-color: #FF494E;
+    border-radius: 20%;
+}
+
+.box7 h3{
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
     
 }
-.pengisian{
-    box-sizing: border-box;
-    font-size: 10pt;
-    text-align: center;
-}
-
-.body-style {
-    background-image: url('\\image\\tirtagangga-water-palace.jpg');
-    background-size: cover;
-}
-/*image*/
-
-
-
-.button_waterpump{
+.box7 h3 a{
     text-decoration: none;
-    color: #ecf0f1;
-    background-color: #cc1313;
-    border-radius: 5px;
-    padding: 5px 10px;
-  }
+    color: white;
+}
 
-
-/*pulau komodo*/
-.komodo {
-    text-align: center;
-    line-height: 1.5;
-
-    /* The image used */
-    background-image: url("..\\image\\pulau-komodo-indonesia.jpg");
-
-    /* Add the blur effect */
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+.bg1 {
+    margin-top: 128px;
+    height: 120vh;
+    background-image: url('wisata-indonesia.png');
     background-size: cover;
-}
-
-
-/*raja ampat*/
-.raja {
-    text-align: center;
-    line-height: 1.5;
-
-    /* The image used */
-    background-image: url("..\\image\\raja-ampat-indonesia.jpg");
-
-    /* Add the blur effect */
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-
-/*borobudur*/
-.candi {
-    text-align: center;
-    line-height: 1.5;
-
-    /* The image used */
-    background-image: url("..\\image\\borobudur-indonesia.jpg");
-
-    /* Add the blur effect */
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*bromo*/
-.bromo {
-    text-align: center;
-    line-height: 1.5;
-
-    /* The image used */
-    background-image: url("..\\image\\bromo-indonesia.jpg");
-
-    /* Add the blur effect */
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*pencarian*/
-.imageExample6 {
-    width: 240px;
-    height: 225px;
-    border-radius: 10px;
-}
-
-.indicator {
-    padding-top: .5%;
-    padding-bottom: 3%;
-}
-
-#preview {
-    padding-bottom: 3%;
-}
-.slider{
-    width: 300px;
-    height: 200px;
-    margin-left: 520px;
-    margin-top: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .slides{
-    width: 500%;
-    height: 500px;
-    display: flex;
-  }
-  
-  .slides input{
-    display: none;
-  }
-  
-  .slide{
-    width: 20%;
-    transition: 2s;
-  }
-  
-  .slide img{
-    width: 300px;
-    height: 200px;
-  }
-  
-  /*css for manual slide navigation*/
-  
-  .navigation-manual{
+.cont h1 {
     position: absolute;
-    width: 800px;
-    margin-top: -320px;
-    margin-left: -250px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .manual-btn{
-    border: 2px solid #40D3DC;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-  }
-  
-  .manual-btn:not(:last-child){
-    margin-right: 40px;
-  }
-  
-  .manual-btn:hover{
-    background: #40D3DC;
-  }
-  
-  #radio1:checked ~ .first{
-    margin-left: 0;
-  }
-  
-  #radio2:checked ~ .first{
-    margin-left: -20%;
-  }
-  
-  #radio3:checked ~ .first{
-    margin-left: -40%;
-  }
-
-  #radio4:checked ~ .first{
-    margin-left: -60%;
-  }
-  
-  
-  /*css for automatic navigation*/
-  
-  .navigation-auto{
-    position: absolute;
-    display: flex;
-    width: 800px;
-    justify-content: center;
-    margin-top: 180px;
-    margin-left: -250px;
-  }
-  
-  .navigation-auto div{
-    border: 2px solid #40D3DC;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-  }
-  
-  .navigation-auto div:not(:last-child){
-    margin-right: 40px;
-  }
-  
-  #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #40D3DC;
-  }
-  
-  #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #40D3DC;
-  }
-  
-  #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #40D3DC;
-  }
-
-  #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #40D3DC;
-  }
-  .gabung{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    margin-left: 100px;
-  }
-  .next img{
+    color: #ffffff;
     margin-top: -100px;
-    margin-left: 800px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  .prev img{
-    margin-top: -100px;
-    margin-left: -1250px;
-    width: 100ox;
-    height: 100px;
-  }
-                             
+    margin-left: 230px;
+    font-size: 40px;
+}
+
+.cont {
+    height: 300px;
+    width: 80%;
+    background-color: rgba(14, 20, 19, 0.6);
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 250px;
+    color: #ffffff;
+}
+
+.cont p {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cont1 {
+    position: absolute;
+    margin-top: 80px;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+.pl h3 {
+    position: absolute;
+    color: black;
+    margin-top: 25px;
+    margin-left: 130px;
+}
+.caution h3 {
+    position: absolute;
+    color: red;
+    margin-top: 25px;
+    margin-left: 850px;
+    font-style: italic;
+}
+
+.pl1 {
+    margin-top: 130px;
+    margin-left: 100px;    
+}
+
+.caution1 {
+    margin-top: -300px;
+    margin-left: 700px;
+}
+
+.cont2{
+    position: absolute;
+    margin-top: 80px;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(63, 63, 63, 0.137);
+}
+.cont2 h1 {
+    font-family: Kabos Gyula;
+    font-size: 40px;
+    color: #1E7E7A;
+    margin-top: 60px;
+}
+
+.cont2 img {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+    
