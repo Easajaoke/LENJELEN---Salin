@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pembayaran</title>
+    <link rel="stylesheet" type="text/css" href="css/pembayaran.css">
+</head>
+
+<body>
+  <header>
+    <div class="flex-container">
+      <div class="container">
+          <img src="image/logo.png"><a href="index.html"></a>
+          <ul>
+              <b>
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="offers.html">Offers</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              </b>
+          </ul>
+          <div class="search">
+              <img src="image/search.png"><a class="search" href="pencarian.html"></a>
+          </div>
+      </div>
+  </header>
+  <div>
+    <table id="form">
+        <tr>
+          <th colspan="3">Metode Pembayaran</th>
+        </tr>
+        <tr>
+          <td colspan="3" class="tabel_button">
+              <button class="tabel_button button" type="button">Bank Transfer</button>
+              <button class="tabel_button button" type="button">Virtual Account</button>
+              <button class="tabel_button button" type="button">Bank Transfer</button>
+              <button class="tabel_button button" type="button">Kartu Kredit</button>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="3">Informasi Tamu</th>
+        </tr>
+        <tr>
+          <td style="float: right; margin-right: 20px;">
+            <label>Nama Pemesan</br></label>
+          </td>
+          <td colspan="2"><input type="text" placeholder="isi nama sesuai ktp"required></td>
+        </tr>
+        <tr>
+          <td style="float: right; margin-right: 20px;">
+            <label>Nomor Telepon Pemesan</br></label>
+          </td>
+          <td colspan="2"><input type="text" placeholder="+6281234567890" required></td>
+        </tr>
+        <tr>
+          <td style="float: right; margin-right: 20px;">
+            <label>Email Pemesan</br></label>
+          </td>
+          <td colspan="2"><input type="text" placeholder="iqbalkurri@gmail.com" required></td>
+        </tr>
+        <tr>
+          <td style="float: right; margin-right: 20px;">
+            <label>Nama Tamu</br></label>
+          </td>
+          <td colspan="2"><input type="text" placeholder = "isi nama sesuai ktp"required></td>
+        </tr>
+        <tr>
+          <th colspan="3">Anda Memilih Bank Transfer sebagai Metode Pembayaran</th>
+        </tr>
+        <td style="float: right; margin-right: 20px;">
+          <label>Nama Bank</br></label>
+        </td>
+        <td colspan="2"><input type="text" placeholder = "(contoh: BCA, BRI, MANDIRI)"required></td>
+      </tr>
+      <td style="float: right; margin-right: 20px;">
+        <label>Nama Rekening</br></label>
+      </td>
+      <td colspan="2"><input type="text" placeholder = "isi nama sesuai nama rekening anda"required></td>
+    </tr>
+    <td style="float: right; margin-right: 20px;">
+      <label>No Rekening</br></label>
+    </td>
+    <td colspan="2"><input type="text" placeholder = "021-102-210-212"required></td>
+  </tr>
+      </table>
+  </div>   
+      <div class="popup center">
+        <div class="icon">
+          <img class="fa-check" src="image/coba.png">
+        </div>
+        <div class="title">
+          Success!!
+        </div>
+        <div class="description">
+          Pembayaran Telah Berhasil!!!
+        </div>
+        <div class="dismiss-btn">
+          <button id="dismiss-popup-btn">
+            Oke
+          </button>
+        </div>
+      </div>
+      <div class="center">
+        <button id="open-popup-btn">
+          Selesai
+        </button>
+      </div>
+    </div>
+    <script src="js/pembayaran.js"></script>
+</body>
+</html>

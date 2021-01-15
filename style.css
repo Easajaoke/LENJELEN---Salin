@@ -1,0 +1,359 @@
+body {
+    text-align: center;
+    line-height: 1.5;
+   
+
+    /* The image used */
+    background-image: url("..\\image\\tirtagangga-water-palace.jpg");
+
+    /* Add the blur effect */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*navbar*/
+.container{
+    position: absolute;
+    width: 59.25%;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 293px;
+    justify-content: center;
+    background-color: #320D00;
+}
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container img {
+    float: left;
+    padding: 10px 0;
+    width: 20%;
+}    
+.search {
+    width: 12%;
+    height: 80px;
+    background-color:#FF494E;
+    margin-top: -90.5px;
+    float: right;
+}
+.search img {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+header ul {
+    margin-left: 100px;
+}
+
+header ul li {
+    display: inline-block;
+    font-family: Myriad Pro;
+    font-weight: Semibold Condensed;
+    color: white;  
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: -20px;
+}
+.bg {
+    height: 135vh;
+    background-image: url('offers.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/*judul*/
+h1 {
+    top:100px;
+    color: #0f0f0f;
+    font-family: 'hashed browns';
+	font-size: 30pt;
+	font-variant: inherit;
+    text-align: center;
+    padding-top: 190px;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+/*kotak*/
+.Isi {
+    top: 0px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 1) ;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.65) ;
+    padding: 10px 10px;
+    width: 400px ;
+    
+}
+.pengisian{
+    box-sizing: border-box;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.body-style {
+    background-image: url('\\image\\tirtagangga-water-palace.jpg');
+    background-size: cover;
+}
+/*image*/
+
+
+
+.button_waterpump{
+    text-decoration: none;
+    color: #ecf0f1;
+    background-color: #cc1313;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+
+/*pulau komodo*/
+.komodo {
+    text-align: center;
+    line-height: 1.5;
+
+    /* The image used */
+    background-image: url("..\\image\\pulau-komodo-indonesia.jpg");
+
+    /* Add the blur effect */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*raja ampat*/
+.raja {
+    text-align: center;
+    line-height: 1.5;
+
+    /* The image used */
+    background-image: url("..\\image\\raja-ampat-indonesia.jpg");
+
+    /* Add the blur effect */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*borobudur*/
+.candi {
+    text-align: center;
+    line-height: 1.5;
+
+    /* The image used */
+    background-image: url("..\\image\\borobudur-indonesia.jpg");
+
+    /* Add the blur effect */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*bromo*/
+.bromo {
+    text-align: center;
+    line-height: 1.5;
+
+    /* The image used */
+    background-image: url("..\\image\\bromo-indonesia.jpg");
+
+    /* Add the blur effect */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*pencarian*/
+.imageExample6 {
+    width: 240px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.indicator {
+    padding-top: .5%;
+    padding-bottom: 3%;
+}
+
+#preview {
+    padding-bottom: 3%;
+}
+.slider{
+    width: 300px;
+    height: 200px;
+    margin-left: 520px;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 300px;
+    height: 200px;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -320px;
+    margin-left: -250px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #40D3DC;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: -250px;
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+  }
+
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+  }
+  .gabung{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  .next img{
+    margin-top: -100px;
+    margin-left: 800px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .prev img{
+    margin-top: -100px;
+    margin-left: -1250px;
+    width: 100ox;
+    height: 100px;
+  }
+                             
