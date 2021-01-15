@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    position: absolute;
+    width: 59.25%;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 253px;
+    justify-content: center;
+    background-color: #320D00;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container img {
+    float: left;
+    padding: 10px 0;
+    width: 20%;
+    margin-left: 10px;
+}
+.search {
+    width: 12%;
+    height: 80px;
+    background-color:#FF494E;
+    margin-top: -71.5px;
+    float: right;
+}
+
+.search img {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+header ul {
+    margin-left: 200px;
+}
+
+header ul li {
+    display: inline-block;
+    font-family: Myriad Pro;
+    font-weight: Semibold Condensed;
+    color: white;  
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: -20px;
+}
+header ul li a:hover {
+    background-color: orangered;
+}
+header ul li.active a{
+    background-color: orangered;
+}
+.bg {
+    height: 135vh;
+    background-image: url('offers.png');
+    background-size: cover;
+    background-position: center;
+}
+.cont {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(14, 20, 19, 0.6);
+    position: absolute;
+    margin-top: 170px;
+}
+.ofbal img{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+.ofbal h6{
+    position: absolute;
+    color: white;
+    font-family: Arial Rounded MT;
+    margin-left: 110px;
+    margin-top: 150px;
+}
+.exp {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color:#F15A24;
+    margin-left: 110px;
+    margin-top: 170px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-top: 4px;
+}
+.ofbrom img{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 25px;
+}
+.ofbrom h6{
+    position: absolute;
+    color: white;
+    font-family: Arial Rounded MT;
+    margin-left: 630px;
+    margin-top: 150px;
+}
+.exp1 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color:#F15A24;
+    margin-left: 630px;
+    margin-top: 170px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-top: 4px;
+}
+.ofbor img{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 300px;
+}
+.ofbor h3{
+    position: absolute;
+    font-size: 36px;
+    color: white;
+    font-family: Forte;
+    margin-left: 120px;
+    margin-top: 400px;
+}
+.ofbor h6{
+    position: absolute;
+    color: white;
+    font-family: Arial Rounded MT;
+    margin-left: 110px;
+    margin-top: 460px;
+}
+.exp2 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color:#F15A24;
+    margin-left: 110px;
+    margin-top: 480px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-top: 4px;
+}
+.ofgili img{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 335px;
+}
+.ofgili h6{
+    position: absolute;
+    color: white;
+    font-family: Arial Rounded MT;
+    margin-left: 480px;
+    margin-top: 470px;
+}
+.exp3 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color:#F15A24;
+    margin-left: 480px;
+    margin-top: 490px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-top: 4px;
+}
+.ofraja img{
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 270px;
+}
+.ofraja h6{
+    position: absolute;
+    color: white;
+    font-family: Arial Rounded MT;
+    margin-left: 880px;
+    margin-top: 510px;
+}
+.exp4 {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    background-color:#F15A24;
+    margin-left: 880px;
+    margin-top: 475px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-top: 4px;
+}

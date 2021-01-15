@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    position: absolute;
+    width: 59.25%;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 253px;
+    justify-content: center;
+    background-color: #320D00;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container img {
+    float: left;
+    padding: 10px 0;
+    width: 20%;
+    margin-left: 10px;
+}
+.search {
+    width: 12%;
+    height: 80px;
+    background-color:#FF494E;
+    margin-top: -71.5px;
+    float: right;
+}
+
+.search img {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+header ul {
+    margin-left: 200px;
+}
+
+header ul li {
+    display: inline-block;
+    font-family: Myriad Pro;
+    font-weight: Semibold Condensed;
+    color: white;  
+}
+header ul li a:hover {
+    background-color: orangered;
+}
+header ul li.active a{
+    background-color: orangered;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: -20px;
+}
+.bg {
+    height: 100vh;
+    background-image: url('Rectangle\ 2.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 150px;
+    z-index: -1;
+}
+.wonder img {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.bali img{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -250px;
+}
+.komodo img{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -250px;
+}
+.raja img{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: -250px;
+}
+.footer h1{
+    text-align:center ;
+    font-family: Forte;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
