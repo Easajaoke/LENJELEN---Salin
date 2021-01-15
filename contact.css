@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    position: absolute;
+    width: 67.5%;
+    height: 80px;
+    margin-top: -40px;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #320D00;
+    z-index: 1;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container img {
+    float: left;
+    padding: 10px 0;
+    width: 20%;
+    margin-left: 10px;
+}
+.search {
+    width: 12%;
+    height: 80px;
+    background-color:#FF494E;
+    margin-top: -71.5px;
+    float: right;
+}
+
+.search img {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+header ul {
+    margin-left: 200px;
+}
+
+header ul li {
+    display: inline-block;
+    font-family: Myriad Pro;
+    font-weight: Semibold Condensed;
+    color: white;  
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: -20px;
+}
+header ul li a:hover {
+    background-color: orangered;
+}
+header ul li.active a{
+    background-color: orangered;
+}
+.bg {
+    height: 120vh;
+    background-image: url('contact.png');
+    background-size: cover;
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+}
+.cont{
+    background-color: rgba(255, 255, 255, 0.671);
+    height: 30vh;
+    width: 400px;
+    z-index: 1;
+    margin-top: 60px;
+}
+.contact{
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 50px;
+    color: black;
+    text-align: center;
+    height: 20vh;
+    width: 300px;
+}
+.contact img{
+    margin-top: -10px;
+}
+.cont1{
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.671) ;
+    margin-top: 300px;
+    height: 80vh;
+    width: 100%;
+}
+.info{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 180px;
+    height: 55vh;
+    width: 350px;
+}
+.wa{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+.wa h3{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.ig{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.ig h3{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.tw{
+    position: absolute;
+    margin-left: 51px;
+    margin-top: 60px;
+}
+.tw h3{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+.fb{
+    position: absolute;
+    margin-left: 53px;
+    margin-top: 108px;
+}
+.fb h3{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+.gmail{
+    position: absolute;
+    margin-left: 49px;
+    margin-top: 152px;
+}
+.gmail h3{
+    position: absolute;
+    margin-left: 74px;
+    margin-top: 3px;
+    font-size: 14px;
+}
+.payment{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 600px;
+    height: 55vh;
+    width: 350px;
+}
+.payment h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.bri {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.bca {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.bni {
+    position: absolute;
+    margin-top: 41px;
+    margin-left: 250px;
+}
+.mega {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.mandiri {
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 110px;
+}
+.visa {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 205px;
+}
+.atm {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 270px;
+}
+.midi {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+.alfa {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 140px;
+}
+.indo {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 230px;
+}
+
+.cont2{
+    position: absolute;
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(63, 63, 63, 0.137);
+}
+.cont2 h1 {
+    font-family: Kabos Gyula;
+    font-size: 40px;
+    color: #1E7E7A;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.cont2 img {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 80px;
+}

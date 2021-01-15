@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    position: absolute;
+    width: 60%;
+    height: 80px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #320D00;
+    z-index: 1;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container img {
+    float: left;
+    padding: 10px 0;
+    width: 20%;
+    margin-left: 10px;
+}
+.search {
+    width: 12%;
+    height: 80px;
+    background-color:#FF494E;
+    margin-top: -71.5px;
+    float: right;
+}
+
+.search img {
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+header ul {
+    margin-left: 200px;
+}
+
+header ul li {
+    display: inline-block;
+    font-family: Myriad Pro;
+    font-weight: Semibold Condensed;
+    color: white;  
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-right: -20px;
+}
+header ul li a:hover {
+    background-color: orangered;
+}
+header ul li.active a{
+    background-color: orangered;
+}
+.bg {
+    height: 120vh;
+    background-image: url('about.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center ;
+}
+
+.cont {
+    height: 80vh;
+    width: 90%;
+    background-color: rgba(14, 20, 19, 0.6);
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 200px;
+}
+
+.cont h1{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-family: Arial Rounded MT;
+}
+.cont p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria Math;
+    margin: 60px 120px;
+}
+.cont h2{
+    margin-top: 90px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: SourceSansRoman;
+    font-weight: Regular;
+}
+
+.pl1 img{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.pl2 img{
+    margin-top: -250px;
+    margin-left: 650px;
+}
+.pl3 img{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.pl4 img{
+    margin-top: -250px;
+    margin-left: 900px;
+}
+.cont2{
+    position: absolute;
+    margin-top: 80px;
+    height: 150px;
+    width: 100%;
+    background-color: rgba(63, 63, 63, 0.137);
+}
+.cont2 h1 {
+    font-family: Kabos Gyula;
+    font-size: 40px;
+    color: #1E7E7A;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.cont2 img {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 80px;
+}
